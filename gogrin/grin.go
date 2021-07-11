@@ -1,6 +1,6 @@
 package grin
 
-var grin string = "\\./ yay! :->"
+var grin string = ":-> yay! \\./"
 
 func Grin() string {
 	return grin

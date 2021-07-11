@@ -7,7 +7,7 @@ import (
 )
 
 func TestGrin(t *testing.T) {
-	expect := "\\./ yay! :->"
+	expect := ":-> yay! \\./"
 	actual := grin.Grin()
 	if actual != expect {
 		t.Fatal("expect:", expect, "but was actual:", actual)
